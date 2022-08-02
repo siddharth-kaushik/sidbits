@@ -6,7 +6,7 @@ const ExternalLink = ({ children, to, ...rest }) => {
     <a
       href={to}
       target="_blank"
-      className="font-bold uppercase text-xs tracking-wider text-zinc-500 hover:text-rose-500 dark:text-zinc-500 dark:hover:text-sky-500 transition-colors"
+      className="font-medium text-sm text-zinc-400 hover:text-rose-400 dark:text-zinc-500 dark:hover:text-teal-500 transition-colors"
       {...rest}
     >
       {children}
