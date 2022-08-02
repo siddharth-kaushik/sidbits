@@ -1,11 +1,12 @@
 import React from 'react'
-import Logo from './Logo'
+
+import SecondaryHeader from './SecondaryHeader'
 
 const Header = () => {
   return (
     <header className="w-full">
-      <div className="max-w-7xl mx-auto border-b-2 border-b-stone-100 h-12 flex items-center">
-        <Logo />
+      <div className="max-w-7xl mx-auto">
+        <SecondaryHeader />
       </div>
     </header>
   )
