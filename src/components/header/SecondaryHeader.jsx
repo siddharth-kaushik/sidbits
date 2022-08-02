@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { ExternalLink } from '../link'
 import { mediaLinks } from './constants'
 import Status from './Status'

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Logo = () => {
   return (
     <span className="group text-lg dark:text-zinc-200 font-bold select-none flex items-center gap-1">

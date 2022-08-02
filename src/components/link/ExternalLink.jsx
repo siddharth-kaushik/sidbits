@@ -1,6 +1,3 @@
-import React from 'react'
-import classnames from 'classnames'
-
 const ExternalLink = ({ children, to, ...rest }) => {
   return (
     <a

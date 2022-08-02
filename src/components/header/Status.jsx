@@ -1,4 +1,3 @@
-import React from 'react'
 import { status } from './constants'
 
 const Status = ({ available = true }) => {
